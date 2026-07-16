@@ -1,0 +1,32 @@
+# Install everything needed across the 30 projects:
+#   pip install -r requirements.txt
+# Not every project uses every package. Some days also need Ollama (https://ollama.com)
+# running locally, and a few Windows-only audio packages (pycaw, comtypes) can be skipped on Mac or Linux.
+
+chromadb
+comtypes
+faster-whisper
+GitPython
+matplotlib
+mediapipe
+numpy
+ollama
+opencv-python
+pandas
+Pillow
+psutil
+PyAudio
+pycaw
+PyMuPDF
+pygame
+pynput
+pyttsx3
+requests
+rich
+scikit-learn
+scipy
+sentence-transformers
+sounddevice
+soundfile
+textual
+torch
